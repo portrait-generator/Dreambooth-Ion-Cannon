@@ -78,7 +78,7 @@ Behold - a Jupyter notebook!
 
 Copy and paste the following line into the only available cell - 
 
-`!git clone https://github.com/laurenceday/Dreambooth-Ion-Cannon.git`
+`!git clone https://github.com/portrait-generator/Dreambooth-Ion-Cannon.git`
 
 \- and then hit `Ctrl`+`Enter`. It's going to download 16 MB worth of files. This should be near instantaneous.
 
