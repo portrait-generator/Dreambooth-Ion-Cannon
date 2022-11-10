@@ -832,7 +832,7 @@ if __name__ == "__main__":
             trainer.test(model, data)
     except Exception as e:
         print(f"Dreambooth Exception {e}")
-        if opt.debug and trainer.global_rank == 0:
+        if trainer.global_rank == 0:
             try:
                 import pudb as debugger
             except ImportError:
